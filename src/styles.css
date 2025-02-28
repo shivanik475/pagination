@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 210px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pageNumber {
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.pagination-container {
+  padding: 5px;
+  margin: 20px;
+}
